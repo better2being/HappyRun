@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.tsunami.run.happyrun.views.RoundImageView
+        android:id="@+id/my_photo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+
+        imagecontrol:border_outside_color="#ba3456"
+        imagecontrol:border_thickness="1dp" />
+    <Button
+        android:id="@+id/btn_me_self"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_self"
+        android:onClick="setClick"/>
+
+    <Button
+        android:id="@+id/btn_me_editPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editPic"
+        android:onClick="editPicClick"/>
+
+    <Button
+        android:id="@+id/btn_me_wheel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wheelView"
+        android:onClick="wheelClick"/>
+
+    <Button
+        android:id="@+id/btn_me_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_update"
+        android:onClick="updateClick"/>
+
+    <Button
+        android:id="@+id/btn_me_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_about"
+        android:onClick="aboutClick"/>
+</LinearLayout>
