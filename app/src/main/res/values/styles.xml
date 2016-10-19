@@ -39,6 +39,11 @@
         <item name="android:src">@mipmap/actionbar_add_icon</item>
     </style>
 
+    <!--        shenxm      -->
+    <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
 
 </resources>
 

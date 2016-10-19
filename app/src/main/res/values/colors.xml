@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--        shenxm      -->
+    <color name="excellent">#00FF00</color>
+    <color name="good">#FFFF00</color>
+    <color name="slight">#FF7F00</color>
+    <color name="moderate">#FF0000</color>
+    <color name="severe">#7F007F</color>
+    <color name="serious">#7F0000</color>
+    <color name="white">#FFFFFF</color>
 </resources>
